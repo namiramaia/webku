@@ -17,7 +17,7 @@ body{
     padding:0 2pc;
 }
 .menu{
-    background-color:#417aa8;
+    background-color:#b8d6e9;
     height:50px;
     line-height:50px;
     position:relative;
@@ -39,9 +39,10 @@ body{
 }
 
 .menu ul li a:hover {
-    background-color:#ffcccc;
+    background-color:#4b88bb;
     display:block;
 }
+
 
 
 
