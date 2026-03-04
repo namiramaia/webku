@@ -43,6 +43,15 @@ body{
     display:block;
 }
 
+.content{
+    width:90%;
+    margin:auto;
+    height:420px;
+    padding:0.1px;
+    background:#fff;
+    color:#333;
+}
+
 
 
 
