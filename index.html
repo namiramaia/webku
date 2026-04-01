@@ -1,68 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>DELAYOTA</title>
-   <link rel="stylesheet" href="style.css">
-</head> 
+<meta charset="UTF-8">
+<title>Matchology</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b8d1a3;
+  }
+
+  .header {
+    background-color: #e8a7a7;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .navbar {
+    background-color: #a4c48a;
+    padding: 10px;
+  }
+
+  .navbar a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .container {
+    display: flex;
+    padding: 20px;
+    background-color: #eee;
+  }
+
+  .content {
+    flex: 3;
+    margin-right: 20px;
+  }
+
+  .box {
+    border: 1px solid #5c7a7a;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+
+  .box button {
+    margin-top: 10px;
+  }
+
+  .sidebar {
+    flex: 1;
+  }
+
+  .sidebar h3 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+  }
+
+  .sidebar a {
+    display: block;
+    margin: 5px 0;
+    color: blue;
+    text-decoration: none;
+  }
+
+  .footer {
+    padding: 20px;
+    font-size: 12px;
+  }
+</style>
+</head>
 
 <body>
 
 <div class="header">
-   <div class="jarak">
-      <h2>DELAYOTA FASHION</h2>
-   </div>
-</div> 
+  Matchology
+</div>
 
-<div class="menu"></div>
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Blog</a>
+  <a href="#">Contact</a>
+</div>
 
-<div class="content">
-   <div class="jarak">
+<div class="container">
 
-      <!-- kiri -->
-      <div class="kiri">
+  <div class="content">
+    <div class="box">
+      <h3>HTML</h3>
+      <p>Hypertext Markup Language</p>
+      <button>Read More..</button>
+    </div>
 
-         <div class="border">
-            <div class="jarak">
-               <h3>Lorem Ipsum</h3>
-               <p>Lorem ipsum is simply dummy text of the printing</p>
-               <button class="btn">Read More ..</button>
-            </div>
-         </div>
+    <div class="box">
+      <h3>CSS</h3>
+      <p>Cascading Style Sheets</p>
+      <button>Read More..</button>
+    </div>
+  </div>
 
-         <div class="border">
-            <div class="jarak">
-               <h3>Lorem Ipsum</h3>
-               <p>Lorem ipsum is simply dummy text of the printing</p>
-               <button class="btn">Read More ..</button> 
-            </div>
-         </div>
+  <div class="sidebar">
+    <h3>CATEGORY</h3>
+    <a href="#">HTML</a>
+    <a href="#">CSS</a>
+    <a href="#">BOOTSTRAP</a>
+    <a href="#">PHP</a>
+    <a href="#">MYSQL</a>
+    <a href="#">Jquery</a>
+    <a href="#">Ajax</a>
+  </div>
 
-      </div>
-      <!-- kiri -->
-
-      <!-- kanan -->
-      <div class="kanan">
-         <div class="jarak">
-            <h3>CATEGORY</h3>
-            <hr/>
-            <p><a href="#" class="undecor">HTML</a></p>
-            <p><a href="#" class="undecor">CSS</a></p>
-            <p><a href="#" class="undecor">BOOTSTRAP</a></p>
-            <p><a href="#" class="undecor">PHP</a></p>
-            <p><a href="#" class="undecor">MYSQL</a></p>
-            <p><a href="#" class="undecor">Jquery</a></p>
-            <p><a href="#" class="undecor">Ajax</a></p>
-         </div>
-      </div>
-      <!-- kanan -->
-
-   </div>
 </div>
 
 <div class="footer">
-   <div class="jarak">
-      <p>copyright 2026 delayota all reserved</p>
-   </div>
+  copyright 2026 delayota all reserved
 </div>
 
 </body>
