@@ -5,6 +5,7 @@ body{
     font-family:sans-serif;
     margin:0 auto;
 }
+
  .header{
      width:90%;
      margin:auto;
@@ -51,13 +52,15 @@ body{
     background:#fff;
     color:#333;
 }
+
 .border{
     border:2px solid #4887b9;
     margin-top:1pc;
     padding-bottom:1pc;
     padding-left:2pc;
-    padding-rightP:2pc;
+    padding-right:2pc;
 }
+
 .kiri{
     width:70%
     float:left;
@@ -65,13 +68,15 @@ body{
     background:#fff;
     height:420px;
 }
+
 .kanan{
-    wwidth:30%;
+    width:30%;
     float:left;
     margin:auto;
     background:#fff;
     height:420px;
 }
+
 .undecor{
     text-decoration:none;
 }
